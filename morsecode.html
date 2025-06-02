@@ -17,12 +17,14 @@
         <br>
 
         <h1 class="center">Morse Code Translator</h1>
+        <p class="center">Translates morse code to letters. For Morse to Text, seperate words with '/'.</p>
 
-        <textarea class="input" cols="60" rows="6"></textarea>
+        <textarea id="input" cols="60" rows="6"></textarea>
 
-        <h2 class="output"></h2>
+        <h2 id="output"></h2>
 
-        <button id="enter" onclick="enter()">Enter</button>
+        <button id="enter" onclick="enterML()">Morse to Text</button>
+        <button id="enter" onclick="enterLM()">Text to Morse</button>
 
         <script src="script.js"></script>
 
